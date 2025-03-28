@@ -1,0 +1,15 @@
+ci-cd:
+  - changed-files:
+      - any-glob-to-any-file: [".github/workflows/*", ".github/labeler.yml"]
+
+dependencies:
+  - changed-files:
+      - any-glob-to-any-file: ["package.json", "package-lock.json"]
+documentation:
+  - changed-files:
+      - any-glob-to-any-file: ["docs/**/*"]
+
+tooling:
+  - changed-files:
+      - any-glob-to-any-file:
+          [".pre-commit-config.yaml", ".vscode/**/*"]

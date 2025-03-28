@@ -1,0 +1,6 @@
+blank_issues_enabled: true
+
+contact_links:
+  - name: Documentation
+    url: https://github.com/lpoaura/semanature_backoffice_mobileapp
+    about: Please read carefully the documentation before to submit an issue.
